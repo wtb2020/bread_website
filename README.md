@@ -19,13 +19,13 @@
 
 ​	然后搜索结果中的该图标为教程视频：
 
-![image-20250426195530869](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20250426195530869.png)
+![image-20250426195530869](E:\项目\抄写网页\images\html教程.png)
 
 ​	实际开发时，可以不用下载vs code, 打开浏览器，输入网址：https://vscode.dev/，直接在浏览器中使用vs code! 
 
 ​	网页预览如下：
 
-![image-20250426201114445](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20250426201114445.png)
+![image-20250426201114445](E:\项目\抄写网页\images\vscode.png)
 
 ​	虽然只有半小时左右，但是，我一句一句暂停视频跟着超代码，然后，效果不同的，把我的代码贴给GPT进行debug，到做成差不多的效果，花了5个小时左右。但是，看到这么一个效果很棒的静态网页，觉得很开心，很有成就感！
 
@@ -73,15 +73,15 @@ git --version
 
 - 找到你安装的 git.exe 的位置，如下图：
 
-![image-20250426203814595](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20250426203814595.png)
+![image-20250426203814595](E:\项目\抄写网页\images\git地址.png)
 
 - 右键 git.exe , 选择属性，复制位置后面的内容，本例中为： D:\Program Files\Git\bin
 
-![image-20250426203951814](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20250426203951814.png)
+![image-20250426203951814](E:\项目\抄写网页\images\git属性.png)
 
 - 在win11菜单栏的搜索框中输入 环境变量 ，点击 编辑系统环境变量 ：
 
-![image-20250426203211233](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20250426203211233.png)
+![image-20250426203211233](E:\项目\抄写网页\images\环境变量.png)
 
 - 点击 环境变量 。
 - 从弹窗的上面的用户变量中找到 path , 选中再点击 编辑。
@@ -161,11 +161,11 @@ git push -u origin main
 - 在浏览器中进入你的GitHub项目仓库，本例为：https://github.com/wtb2020/bread_website
 - 在网页上方找到 settings，并点击。
 
-![image-20250426210813617](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20250426210813617.png)
+![image-20250426210813617](E:\项目\抄写网页\images\settings.png)
 
 - 在左边栏中找到 pages，并点击。
 
-![image-20250426210843028](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20250426210843028.png)
+![image-20250426210843028](E:\项目\抄写网页\images\pages.png)
 
 - 在网页中找到 Source, 在 Source 下面的选项中，进行如下设置：
 
@@ -173,7 +173,7 @@ git push -u origin main
 
 ​	Folder: / (root)
 
-![image-20250426211156522](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20250426211156522.png)
+![image-20250426211156522](E:\项目\抄写网页\images\source.png)
 
 - 点击按钮 Save
 - github网站会给你生成一个链接：
@@ -186,7 +186,7 @@ https://wtb2020.github.io/bread_website/
 
 - 将你的链接复制到浏览器中，你就能访问你部署的静态网页！
 
-![image-20250426211514053](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20250426211514053.png)
+![image-20250426211514053](E:\项目\抄写网页\images\your_website.png)
 
 
 
