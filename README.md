@@ -12,7 +12,7 @@
 
 ​	这个项目是根据这个视频教程一句一句抄写的，视频链接如下：
 
-​	https://www.bilibili.com/video/BV1Wr4y1R7Bd/?spm_id_from=333.1387.upload.video_card.click&vd_source=983b434d7284977e1b6dac33fd75f07c
+​	https://www.bilibili.com/video/BV1Wr4y1R7Bd/
 ​	如果视频链接失效，就可以通过哔哩哔哩搜索关键词：
 
 ```关键词
@@ -21,13 +21,13 @@
 
 ​	然后搜索结果中的该图标为教程视频：
 
-![image-20250426195530869](images\html教程.png)
+![image-20250426195530869](images/html教程.png)
 
 ​	实际开发时，可以不用下载vs code, 打开浏览器，输入网址：https://vscode.dev/，直接在浏览器中使用vs code! 
 
 ​	网页预览如下：
 
-![image-20250426201114445](images\vscode.png)
+![image-20250426201114445](images/vscode.png)
 
 ​	虽然只有半小时左右，但是，我一句一句暂停视频跟着超代码，然后，效果不同的，把我的代码贴给GPT进行debug，到做成差不多的效果，花了5个小时左右。但是，看到这么一个效果很棒的静态网页，觉得很开心，很有成就感！
 
@@ -77,19 +77,19 @@ git --version
 
 - 找到你安装的 git.exe 的位置，如下图：
 
-![image-20250426203814595](images\git地址.png)
+![image-20250426203814595](images/git地址.png)
 
-- 右键 git.exe , 选择属性，复制位置后面的内容，本例中为： D:\Program Files\Git\bin
+- 右键 git.exe , 选择属性，复制位置后面的内容，本例中为： D:/Program Files/Git/bin
 
-![image-20250426203951814](images\git属性.png)
+![image-20250426203951814](images/git属性.png)
 
 - 在win11菜单栏的搜索框中输入 环境变量 ，点击 编辑系统环境变量 ：
 
-![image-20250426203211233](images\环境变量.png)
+![image-20250426203211233](images/环境变量.png)
 
 - 点击 环境变量 。
 - 从弹窗的上面的用户变量中找到 path , 选中再点击 编辑。
-- 在新的弹窗中，点击 新建，粘贴你前面复制的内容，本例中为： D:\Program Files\Git\bin
+- 在新的弹窗中，点击 新建，粘贴你前面复制的内容，本例中为： D:/Program Files/Git/bin
 - 然后一直点 确定。
 - 打开控制台终端，输入命令
 
@@ -103,11 +103,11 @@ git --version
 
 ##### 3.5 将你的项目push到github
 
-- 打开控制台终端，输入命令到项目地址，本例为：E:\项目\抄写网页
+- 打开控制台终端，输入命令到项目地址，本例为：E:/项目/抄写网页
 
 ```shell
 e:
-cd E:\项目\抄写网页
+cd E:/项目/抄写网页
 ```
 
 需要说明的是，输入一行命令，就按一下按键 Enter 。
@@ -165,11 +165,11 @@ git push -u origin main
 - 在浏览器中进入你的GitHub项目仓库，本例为：https://github.com/wtb2020/bread_website
 - 在网页上方找到 settings，并点击。
 
-![image-20250426210813617](E:\项目\抄写网页\images\settings.png)
+![image-20250426210813617](E:/项目/抄写网页/images/settings.png)
 
 - 在左边栏中找到 pages，并点击。
 
-![image-20250426210843028](images\pages.png)
+![image-20250426210843028](images/pages.png)
 
 - 在网页中找到 Source, 在 Source 下面的选项中，进行如下设置：
 
@@ -177,7 +177,7 @@ git push -u origin main
 
 ​	Folder: / (root)
 
-![image-20250426211156522](images\source.png)
+![image-20250426211156522](images/source.png)
 
 - 点击按钮 Save
 - github网站会给你生成一个链接：
@@ -190,7 +190,7 @@ https://wtb2020.github.io/bread_website/
 
 - 将你的链接复制到浏览器中，你就能访问你部署的静态网页！
 
-![image-20250426211514053](images\your_website.png)
+![image-20250426211514053](images/your_website.png)
 
 
 
