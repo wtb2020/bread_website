@@ -4,7 +4,7 @@
 
 ​	这个项目是一个只用html和css开发出的静态网页，内容就是一个面包店的宣传网页，可以通过下面的网址访问：
 
-​	https://wtb2020.github.io/bread_website/
+​	https://wtb2020.GitHub.io/bread_website/
 
 
 
@@ -23,7 +23,7 @@
 
 ![image-20250426195530869](images/html教程.png)
 
-​	实际开发时，可以不用下载vs code, 打开浏览器，输入网址：https://vscode.dev/，直接在浏览器中使用vs code! 
+​	实际开发时，可以不用下载vs code, 打开浏览器，输入网址：https://vscode.dev/ ，直接在浏览器中使用vs code! 
 
 ​	网页预览如下：
 
@@ -33,13 +33,13 @@
 
 
 
-#### 3. 关于项目如何部署到github pages(win11 OS)
+#### 3. 关于项目如何部署到GitHub pages(win11 OS)
 
 ​	以下是我和GPT交互得到的流程，希望能对你有帮助！
 
-##### 3.1 创建github账号
+##### 3.1 创建GitHub账号
 
-- 访问 https://github.com/，注册一个免费账号。
+- 访问 https://GitHub.com/ ，注册一个免费账号。
 
 - 完成邮箱验证，并进行基础的信息完善。
 
@@ -47,7 +47,7 @@
 
 ##### 3.2 创建一个新的仓库
 
-- 登录github账号，点击网页右上角的加号 "+"，选择 "New repository"。
+- 登录GitHub账号，点击网页右上角的加号 "+"，选择 "New repository"。
 
 - 填写项目名称(repository name, 本例为  bread_website ) 和项目描述(description, 可以空着),
 
@@ -101,7 +101,7 @@ git --version
 
 
 
-##### 3.5 将你的项目push到github
+##### 3.5 将你的项目push到GitHub
 
 - 打开控制台终端，输入命令到项目地址，本例为：E:/项目/抄写网页
 
@@ -136,19 +136,19 @@ git commit -m "first commit"
 git branch -M main
 ```
 
-- 输入命令，将本地的git项目仓库远程连接到github网站上创建的项目仓库网址：
+- 输入命令，将本地的git项目仓库远程连接到GitHub网站上创建的项目仓库网址：
 
-  https://github.com/your-username/your-repo-name.git
+  https://GitHub.com/your-username/your-repo-name.git
 
   本例为：
 
-  https://github.com/wtb2020/bread_website
+  https://GitHub.com/wtb2020/bread_website
 
 ```shell
-git remote add origin https://github.com/wtb2020/bread_website
+git remote add origin https://GitHub.com/wtb2020/bread_website
 ```
 
-- 输入命令，将本地git中的项目push到github网站上的项目仓库中！
+- 输入命令，将本地git中的项目push到GitHub网站上的项目仓库中！
 
 ```shell
 git push -u origin main 
@@ -162,10 +162,10 @@ git push -u origin main
 
 ##### 3.6 部署你的静态网页到GitHub pages
 
-- 在浏览器中进入你的GitHub项目仓库，本例为：https://github.com/wtb2020/bread_website
+- 在浏览器中进入你的GitHub项目仓库，本例为：https://GitHub.com/wtb2020/bread_website
 - 在网页上方找到 settings，并点击。
 
-![image-20250426210813617](E:/项目/抄写网页/images/settings.png)
+![image-20250426210813617](images/settings.png)
 
 - 在左边栏中找到 pages，并点击。
 
@@ -180,13 +180,13 @@ git push -u origin main
 ![image-20250426211156522](images/source.png)
 
 - 点击按钮 Save
-- github网站会给你生成一个链接：
+- GitHub网站会给你生成一个链接：
 
-https://your-username.github.io/your-repo-name/
+https://your-username.GitHub.io/your-repo-name/
 
 本例为：
 
-https://wtb2020.github.io/bread_website/
+https://wtb2020.GitHub.io/bread_website/
 
 - 将你的链接复制到浏览器中，你就能访问你部署的静态网页！
 
